@@ -1,0 +1,5 @@
+uvicorn
+HTTPException
+pyodbc
+CORSMiddleware
+processed_lp
