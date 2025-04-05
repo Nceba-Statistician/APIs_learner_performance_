@@ -3,7 +3,6 @@ from  fastapi import FastAPI, HTTPException
 import pyodbc
 import warnings
 from fastapi.middleware.cors import CORSMiddleware
-from itemsprocessing import processed_lp
 
 warnings.filterwarnings("ignore")
 conn = pyodbc.connect(
@@ -34,10 +33,6 @@ def get_db_connection():
 @app.get("/")
 async def read_root():
     return {"fastapi"}
-
-@app.get("/items_processed") 
-async def read_items_processed():
-    return processed_lp
 
 @app.get("/items_get")
 async def read_items():
