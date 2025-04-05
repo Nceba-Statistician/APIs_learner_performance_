@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 warnings.filterwarnings("ignore")
 conn = pyodbc.connect(
     "Driver={ODBC Driver 18 for SQL Server};"
-    "Server=DESKTOP-SLF5UBP;"
+    "Server=172.23.208.1;"
     "Database=LearnerPerformanceDB;"
     "UID=demouser;"
     "PWD=roots;"
