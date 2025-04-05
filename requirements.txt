@@ -2,5 +2,5 @@ uvicorn
 pyodbc
 fastapi
 pandas
-itemsprocessing
+
 
