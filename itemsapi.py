@@ -121,7 +121,3 @@ async def delete_items(
 if __name__=="_main_":
     uvicorn.run(app)
 
-# uvicorn itemsapi:app --host 127.0.0.1 --port 8000
-# uvicorn itemsapi:app --reload
-# uvicorn itemsapi:app --host localhost --port 8000
-# uvicorn itemsapi:app --host 0.0.0.0 --port 8000
